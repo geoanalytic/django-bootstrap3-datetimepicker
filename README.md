@@ -13,10 +13,8 @@ visit https://github.com/zokis/django-bootstrap-datetimepicker
 
 Install
 -------------------------------
-
-* Run `pip install django-bootstrap3-datetimepicker`
+* Run `pip install git+https://github.com/geoanalytic/django-bootstrap3-datetimepicker
 * Add `'bootstrap3_datetime'` to your `INSTALLED_APPS`
-
 
 Example
 --------------------------------
@@ -89,6 +87,7 @@ Bootstrap3 and jQuery have to be included along with `{{ form.media }}`
 
 Release Notes
 -------------------------------
+* Updated to current versions of moment (2.15.0) and bootstrap-datetimepicker (4.17.42)
 
 ###### v2.3
 
